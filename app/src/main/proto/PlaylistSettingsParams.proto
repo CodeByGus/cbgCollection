@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "com.codebygus.cbgcollection.proto";
+option java_multiple_files = true;
+
+message PlaylistSettingsParams {
+  bool playlistArtistExact = 1;
+  bool showAttachmentDialog = 2;
+  bool shareOnExternalFileCreate = 3;
+  int32 playlistItemAdditionMethod = 4;
+  int32 artistSelectListFiltering = 5;
+  bool genreSelectListFilteringExact = 6;
+  bool labelSelectListFilteringExact = 7;
+  bool styleSelectListFilteringExact = 8;
+  int32 defaultPlaylistSortingMethod = 9;
+  bool typeSelectListSortingMethod = 10;
+  int32 externalPlaylistFormatMethod = 11;
+  int32 atTypePlaylistEndAction = 12;
+  int32 atTrackPlaylistEndAction = 13;
+  int32 atPlaylistStartAction = 14;
+  int32 playlistConfigAction = 15;
+}

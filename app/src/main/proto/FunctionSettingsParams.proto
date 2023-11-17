@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.codebygus.cbgcollection.proto";
+option java_multiple_files = true;
+
+message FunctionSettingsParams {
+  int32 albumListOrder = 1;
+  bool albumListSavePosition = 2;
+  bool tracksByTitle = 3;
+  bool searchAtStart = 4;
+  int32 atAlbumEndAction = 5;
+  int32 audioEffectsAvailable = 6;
+  int32 albumScrollMethod = 7;
+  int32 typeScrollMethod = 8;
+  int32 trackScrollMethod = 9;
+  int32 entryScrollMethod = 10;
+}
